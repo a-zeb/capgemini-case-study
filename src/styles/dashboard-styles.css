@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: #ffffff;
+    color: #343c6a;
+}
+
+header .navbar {
+    min-height: 100px;
+    border-color: #e6eff5 !important;
+}
+
+header .search-bar .form-control {
+    border: none;
+    background: #f5f7fa;
+    min-width: 220px;
+}
+
+header .search-bar .form-control:focus {
+    box-shadow: none;
+}
+
+header .nav-icons .btn {
+    width: 42px;
+    height: 42px;
+    padding: 0;
+    border: 1px solid #e6eff5;
+}
+
+.avatar,
+.avatar-lg {
+    font-weight: 600;
+}
+
+.avatar {
+    width: 38px;
+    height: 38px;
+}
+
+.avatar-lg {
+    width: 70px;
+    height: 70px;
+}
+
+main {
+    position: relative;
+    background: #ffffff;
+}
+
+main .container-fluid {
+    padding: 0;
+    background: #f5f7fa;
+    min-height: 100vh;
+}
+
+main .row {
+    min-height: 100vh;
+}
+
+.sidebar {
+    max-width: 250px;
+    min-height: 100vh;
+}
+
+.sidebar .nav-link {
+    border-radius: 0.75rem;
+    padding: 0.5rem 0.75rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.sidebar .nav-link:hover {
+    background: rgba(255, 255, 255, 0.12);
+    color: #ffffff;
+}
+
+.sidebar .active-link {
+    background: #ffffff;
+    color: #2d60ff;
+}
+
+.content-area {
+    background: #f5f7fa;
+}
+
+.card {
+    border: 1px solid #e6eff5;
+    border-radius: 25px;
+}
+
+.card-title,
+.h5 {
+    font-weight: 600;
+    color: #343c6a;
+}
+
+.card-text {
+    color: #718ebf;
+}
+
+.gradient-card {
+    background: linear-gradient(107deg, #4c49ed 2%, #0a06f4 100%);
+}
+
+.placeholder-chart,
+.placeholder-chart.large {
+    background: linear-gradient(180deg, rgba(45, 96, 255, 0.08) 0%, rgba(45, 96, 255, 0.02) 100%);
+    border: 1px dashed #587bb0;
+    min-height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.placeholder-chart.large {
+    min-height: 240px;
+}
+
+.placeholder-pie {
+    width: 160px;
+    height: 160px;
+    background: radial-gradient(circle at 40% 40%, rgba(45, 96, 255, 0.2), rgba(24, 20, 243, 0.6));
+    border: 1px dashed #dfe5ee;
+}
+
+.dot {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+main aside.bg-dark {
+    background-color: #2d60ff !important;
+}
